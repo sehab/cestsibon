@@ -54,6 +54,8 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-youtube
+
 
 exclude:
   - Gemfile
