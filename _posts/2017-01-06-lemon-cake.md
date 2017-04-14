@@ -29,8 +29,6 @@ recipe:
 ---
 If you're a sour fan you're going to love this cake. Lemon Cake is one of my favorite year-round desserts, but it is a perfect choice for spring and summer, when everyone tends to crave citrus or light & flavorful recipes
 
-{% youtube "https://youtu.be/91ZXVw58Ths?list=PLEuzTpovEIl_pLEWs976jUNBVvBJ4-YaK" %}
-
 ![Cake](https://source.unsplash.com/1HPTYLozDGw)
 
 Straight out of the oven.
