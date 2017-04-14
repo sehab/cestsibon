@@ -3,7 +3,7 @@
 
 title: 	C´est si bon
 url: "https://github.com/cestsibon"
-baseurl:
+baseurl: 
 google_analytics_key:
 newsletter_action: "//your-mailchimp-action-url.com"
 disqus_shortname:
@@ -13,10 +13,10 @@ logo: /siteicon.png
 description: Food blog template for Jekyll.
 author:
   name:
-  email:
-  twitter: # twitter username without the @ symbol
+  email: sh@sh.com
+  twitter: shebet
 social:
-  name: Treat Template
+  name: C´est si bon
   links:
     - https://github.com/cestsibon
 
