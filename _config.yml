@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Treat Template
-url: "https://spring-bat.cloudvent.net/"
+title: 	C´est si bon
+url: "https://github.com/cestsibon"
 baseurl:
 google_analytics_key:
 newsletter_action: "//your-mailchimp-action-url.com"
@@ -18,7 +18,7 @@ author:
 social:
   name: Treat Template
   links:
-    - https://github.com/CloudCannon/treat-jekyll-template
+    - https://github.com/cestsibon
 
 # -----
 # Build
