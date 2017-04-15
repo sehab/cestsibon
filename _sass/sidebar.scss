@@ -46,25 +46,17 @@
 			 a {
 			  display:block;
 			  text-decoration: none;
-			  color: #000;
+			  color: #666;
 			}
 
+		
+		details summary::-webkit-details-marker {
+  color: #6fa1f2; 
+  font-size: 20px;
+}
 
-			li {
-			  position: relative;
-			  background:#FFFFFF; /* juste pour cacher le texte de la page en-dessous */
-			}
 
-ul {
-			  
-			  left: 0;
-			}
-
-			li:hover ul {
-			  top: 0;
-			  left: 180px;
-			}
-			}
+}
 
 }
 

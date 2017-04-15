@@ -16,20 +16,38 @@
 		<a target="_blank" href="https://www.instagram.com/{{ site.data.sidebar.instagram }}">{% include social-icon.html icon="Instagram" %}</a>
 		<a target="_blank" href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %}</a>
 	</div>
+<div class="searchfield">
+<h3>Search</h3>
+<script>
+  (function() {
+    var cx = '018223764464626979763:owmzp2-kdy4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+</div>
 <div class="categories">
 <h3>Categories</h3>
-<ul>
-<li><a href="{{ site.baseurl }}/maindish.html">Main Dish</a>
-		<ul>
-			<li><a href="{{ site.baseurl }}/maindish.html">Boeuf</a></li>
-		</ul>
-	</li>
-<li><a href="{{ site.baseurl }}/dessert.html">Dessert</a>
-		<ul>
-			<li><a href="{{ site.baseurl }}/maindish.html">gateau</a></li>
-		</ul>
-	</li>
-</ul>
+<details>
+  <summary>Main Dish</summary>
+ <a href="{{ site.baseurl }}/maindish.html">Boeuf</a>
+<a href="{{ site.baseurl }}/maindish.html">Poulet</a>
+<a href="{{ site.baseurl }}/maindish.html">Porc</a>
+<a href="{{ site.baseurl }}/maindish.html">Végétarien</a>
+</details>
+
+<details>
+  <summary>Dessert</summary>
+ <a href="{{ site.baseurl }}/maindish.html">Gateau</a>
+<a href="{{ site.baseurl }}/maindish.html">Macarons</a>
+<a href="{{ site.baseurl }}/maindish.html">Choux</a>
+<a href="{{ site.baseurl }}/maindish.html">Tartes</a>
+</details>
 
 </div>
 
