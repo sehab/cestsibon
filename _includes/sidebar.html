@@ -1,3 +1,4 @@
+<!doctype html>
 <aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}">
 	<div><a class="editor-link btn" href="cloudcannon:collections/_data/sidebar.yml" class="btn"><strong>&#9998;</strong> Edit sidebar</a></div>
 	<div class="author">
@@ -16,21 +17,6 @@
 		<a target="_blank" href="https://www.instagram.com/{{ site.data.sidebar.instagram }}">{% include social-icon.html icon="Instagram" %}</a>
 		<a target="_blank" href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %}</a>
 	</div>
-<div class="searchfield">
-<h3>Search</h3>
-<script>
-  (function() {
-    var cx = '018223764464626979763:owmzp2-kdy4';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-</div>
 <div class="categories">
 <h3>Categories</h3>
 <details>
@@ -51,7 +37,10 @@
 
 </div>
 
-
+<div class="insta">
+<h3>Follow my instagram</h3>
+<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/73d45c86ea5954a6bd1e756d6e1b7130.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+</div>
 	<form action="{{ site.newsletter_action }}" method="post">
 		<h3>Newsletter</h3>
 		<p>Get my latest recipes sent straight to your inbox.</p>
