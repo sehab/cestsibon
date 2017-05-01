@@ -7,6 +7,7 @@ categories:
   - Pasta
   - Spring
 featured_image: /recettes/patesaumonasperge/IMG_6488.JPG
+is_a_recipe: oui
 recipe: 
   servings: 2
   prep: 10 min

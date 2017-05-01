@@ -8,7 +8,7 @@ layout: default
 	<div class="recipe-body">
 		{{ content }}
 	</div>
-
+	{% if page.is_a_recipe %}
 	<ul id="recipe" class="recipe-overview">
 		<li title="Servings">{% include recipe-icon.html icon="quantity" %}<span>{{ page.recipe.servings }}</span></li>
 		<li title="Prep Time">{% include recipe-icon.html icon="time" %}<span>{{ page.recipe.prep }}</span></li>
@@ -26,7 +26,7 @@ layout: default
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
-
+	{% endif %}
 	<div class="sharing">
 		{% assign share_url = page.url | absolute_url | cgi_escape %}
 		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ share_url }}">{% include social-icon.html icon="Facebook" %}</a>
