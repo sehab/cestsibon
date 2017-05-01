@@ -1,7 +1,9 @@
 {% if (include.post_page ) %}
-	<div class="take-me">
-		<a class="button" href="#recipe">Aller directement à la recette</a>
-	</div>
+	{% if (include.post.is_a_recipe ) %}
+		<div class="take-me">
+			<a class="button" href="#recipe">Aller directement à la recette</a>
+		</div>
+	{% endif %}
 {% endif %}
 <h1>
 	<a href="{{ site.baseurl }}{{ include.post.url }}">
@@ -9,5 +11,5 @@
 	</a>
 </h1>
 <time datetime="{{ include.post.date | date_to_xmlschema }}">
-	{{ include.post.date | date: "%B %-d, %Y" }}
+	{{ include.post.date |  date: "%d/%m/%Y" }}
 </time>
