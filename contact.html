@@ -2,7 +2,7 @@
 title: Contact
 ---
 <h1>Contact</h1>
-<p class="editable">Get in touch with any feedback or questions about the recipes featured here.</p>
+<p class="editable">Si vous avez des commentaires ou des questions concernant les recettes présentes sur mon blog, n´hesitez pas à les poser ici.</p>
 
 <form method="post" action="{{ site.baseurl }}/contact-success/">
 		<input type="hidden" name="_to" value="{{ site.data.email }}" />
@@ -10,28 +10,28 @@ title: Contact
 
 	<div class="contain">
 		<div class="split">
-			<label for="first-name">First Name</label>
+			<label for="first-name">Prénom</label>
 			<input type="text" name="first-name" id="first-name" />
 		</div>
 		<div class="split">
-			<label for="surname">Surname</label>
+			<label for="surname">Nom</label>
 			<input type="text" name="surname" id="surname" />
 		</div>
 	</div>
 
 	<div class="contain">
 		<div class="split">
-			<label for="email">Email Address</label>
+			<label for="email">Adresse Email </label>
 			<input type="email" name="email" id="email" required />
 		</div>
 
 		<div class="split">
-			<label for="subject">Subject</label>
+			<label for="subject">Sujet</label>
 			<select id="subject" name="subject">
-				<option value="enquiry">Enquiry</option>
+				<option value="enquiry">Demande</option>
 				<option value="suggestion">Suggestion</option>
-				<option value="press">Press</option>
-				<option value="other">Other</option>
+				<option value="press">Presse</option>
+				<option value="other">Autre</option>
 			</select>
 		</div>
 	</div>

@@ -2,12 +2,14 @@
 title: Recipes
 image_view: true
 ---
-<h1>Recipes</h1>
+<h1>Recettes</h1>
+
+<h4> Retrouvez ici les recettes classées par catégorie </h4>
 
 
 
 {% if page.image_view %}
-	<h2>Entree</h2>
+	<h2>Entrée</h2>
 		<div class="recipes">
 			{% for recipe in site.categories.Entree limit:2%}
 				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
@@ -15,7 +17,7 @@ image_view: true
 				</div>
 			{% endfor %}
 		</div>
-<h2><a href="{{ site.baseurl }}/maindish.html"><span>Main Dish</span></a></h2>
+<h2><a href="{{ site.baseurl }}/maindish.html"><span>Plat Principal</span></a></h2>
 		<div class="recipes">
 			{% for recipe in site.categories.MainDish limit:2%}
 				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">

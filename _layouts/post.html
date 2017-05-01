@@ -3,9 +3,7 @@ layout: default
 ---
 <article class="post">
 	{% include post-heading.html post=page post_page=true %}
-	<div class="image">
-		<img src="{{ page.featured_image }}" alt="{{ page.title }}">
-	</div>
+	
 
 	<div class="recipe-body">
 		{{ content }}
@@ -19,12 +17,12 @@ layout: default
 
 	<div class="recipe-contents">
 		<div class="ingredients">
-			<h2>Ingredients</h2>
+			<h2>Ingrédients</h2>
 			{{ page.recipe.ingredients_markdown | markdownify }}
 		</div>
 
 		<div class="directions">
-			<h2>Directions</h2>
+			<h2>Instructions</h2>
 			{{ page.recipe.directions_markdown | markdownify }}
 		</div>
 	</div>
@@ -39,9 +37,9 @@ layout: default
 	</div>
 
 	<div class="cta">
-		<h2>More delicious recipes</h2>
-		<p>This one of the many fanastic recipes available on this blog</p>
-		<div class="button"><a href="{{ site.baseurl }}/recipes">Check out more recipes</a></div>
+		<h2>Encore plus de recettes délicieuses</h2>
+		<p>Ceci est une des nombreuses recettes demon blog</p>
+		<div class="button"><a href="{{ site.baseurl }}/recipes"> Venez les découvrir! </a></div>
 	</div>
 	{% if site.disqus_shortname and page.comments %}
 		<div id="disqus_thread"></div>
