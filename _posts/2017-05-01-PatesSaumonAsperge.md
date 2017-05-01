@@ -6,7 +6,7 @@ categories:
   - Fish
   - Pasta
   - Spring
-featured_image: /recettes/patesaumonasperge/IMG_6488.JPG
+featured_image_server: /recettes/patesaumonasperge/IMG_6488.JPG
 is_a_recipe: oui
 recipe: 
   servings: 2

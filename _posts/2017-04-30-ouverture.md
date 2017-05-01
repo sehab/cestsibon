@@ -1,6 +1,6 @@
 ---
 date: 2017-04-30
-featured_image: https://media.giphy.com/media/jKaFXbKyZFja0/giphy.gif
+featured_image_online: https://media.giphy.com/media/jKaFXbKyZFja0/giphy.gif
 ---
 Bienvenue sur mon blog de recettes. Je suis une française au pays des bretzels, de l'Oktoberfest pour être plus précise.
 J'adore cuisiner et surtout voyager au travers de recettes. Vous trouverez donc ici des recettes françaises, allemandes (des fois), mais aussi asiatiques, africaines, orientales, etc ...

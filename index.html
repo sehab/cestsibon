@@ -5,9 +5,17 @@ title: Home
 	{% for post in paginator.posts %}
 		<article class="post">
 			{% include post-heading.html post=post %}
-			<div class="image">
-				<img src="{{ site.baseurl }}{{ post.featured_image }}" alt="{{ post.title }}">
-			</div>
+				{% if post.featured_image_online %}
+				<div class="image">
+					<img src="{{ post.featured_image_online }}" alt="{{ post.title }}">
+				</div>
+				{% endif %}
+
+				{% if post.featured_image_server %}
+				<div class="image">
+					<img src="{{ site.baseurl }}{{ post.featured_image_server }}" alt="{{ post.title }}">
+				</div>
+				{% endif %}
 
 			{{ post.excerpt }}
 
