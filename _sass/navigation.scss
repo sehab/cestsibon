@@ -17,10 +17,12 @@ nav {
 
 		&.active {
 			color: #888;
+			
 		}
 
 		&:hover {
 			color: #000;
+			background: rgba(255, 212, 153, .9);
 		}
 	}
 }

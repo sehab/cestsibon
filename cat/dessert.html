@@ -7,9 +7,21 @@ image_view: true
 {% if page.image_view %}
 		<div class="recipes">
 			{% for recipe in site.categories.Dessert%}
-				<div class="recipe" style="background-image: url('{{ recipe.featured_image }}')">
-					<a href="{{ site.baseurl }}{{ recipe.url }}"><span>{{ recipe.title }}</span></a>
-				</div>
+
+			{% if recipe.featured_image_online %}
+
+			<div class="recipe" style="background-image: url({{ site.baseurl }}{{ recipe.featured_image_online }})">
+				<a href="{{ site.baseurl }}{{ recipe.url }}"><span>{{ recipe.title }} </span></a>
+
+			</div>
+			{% endif %}
+
+			{% if recipe.featured_image_server %}
+			<div class="recipe" style="background-image: url({{ site.baseurl }}{{ recipe.featured_image_server }})">
+				<a href="{{ site.baseurl }}{{ recipe.url }}"><span>{{ recipe.title }} </span></a>
+
+			</div>
+			{% endif %}
 			{% endfor %}
 		</div>
 {% endif %}

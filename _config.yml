@@ -2,8 +2,8 @@
 # Site
 
 title: 	C´est si bon
-url: "https://github.com/cestsibon"
-baseurl: 
+url: https://sehab.github.io/cestsibon/
+baseurl: https://sehab.github.io/cestsibon/
 google_analytics_key:
 newsletter_action: "//your-mailchimp-action-url.com"
 disqus_shortname:
