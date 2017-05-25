@@ -2,10 +2,10 @@
 # Site
 
 title: 	C´est si bon
-url: https://sehab.github.io/cestsibon/
-baseurl: https://sehab.github.io/cestsibon/
+url: 
+baseurl: 
 google_analytics_key:
-newsletter_action: "//your-mailchimp-action-url.com"
+newsletter_action: ""
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
